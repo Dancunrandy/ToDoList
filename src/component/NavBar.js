@@ -1,10 +1,11 @@
 import React from "react";
 function NavBar(){
-    return(
-        <div>
-            <h1>Navigation Bar</h1>
-        </div>
-    );
+   const links =["Home", "About","Coduct"]
+   return <nav>
+   <a href="#home">home</a>
+   <a href="#about">about</a>
+   <a href="#projects">Coduct</a>
+ </nav>
 };
 
 export default NavBar;

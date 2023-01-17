@@ -1,9 +1,9 @@
 import React from "react";
-function ToDoItem (){
+function ToDoItem (props){
     return(
-        <div>
-            <h1>learn react </h1>
-            <p>loreum opsium</p>
+        <div style={{border: "1px solid red", width: '50%', margin: '4rem auto'}}>
+            <h1>{props.todo.title} </h1>
+            <p>{props.todo.Description}</p>
         </div>
     );
 }

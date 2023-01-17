@@ -1,4 +1,4 @@
-import logo from './logo.svg'
+
 import './App.css';
 import { Component, startTransition } from 'react';
 import Home from './views/Home';
